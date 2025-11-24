@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 
-// Hardcoded secret ONLY FOR TEMPORARY DEVELOPMENT
-// will change later
+// Hardcoded secret ONLY FOR TEMPORARY DEV
+// will change later 
 const JWT_SECRET = 'dev_secret';
 
 export const authenticate = (req, res, next) => {
